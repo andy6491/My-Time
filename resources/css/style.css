@@ -73,6 +73,7 @@ header nav {
  .column.small {
    display: flex;
    width: 240px;
+   flex-direction: column;
  }
 
 .story, .lead-story {
@@ -91,6 +92,24 @@ header nav {
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+.news-bites h3 {
+  margin-bottom: 41px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bite {
+  margin: 0;
+  display: block;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  font-family: Verdana;
+  font-size: 12px;
+  background-color: WhiteSmoke;
+  color: DimGray;
 }
 
 /*images*/
@@ -118,6 +137,7 @@ header nav {
 
  .backwards {
    background-image: url('../../resources/images/img-story-2.png');
+   margin-top: 15px;
  }
 
 .camera {
@@ -126,4 +146,39 @@ header nav {
 
 .cat-ceo {
   background-image: url('../../resources/images/img-story-1.png')
+}
+
+/*footer*/
+footer {
+  display: flex;
+  height: 325px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.times {
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav a {
+  color: black;
 }
