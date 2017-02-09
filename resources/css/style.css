@@ -71,3 +71,40 @@ header nav {
  .column.small {
    width: 240px;
  }
+
+.story, .lead-story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/*images*/
+ .main-img {
+   display: flex;
+   background-image: url('../../resources/images/img-story-main.png');
+   font-size: 40px;
+   font-weight: bold;
+   font-family: Georgia;
+   color: white;
+   height: 300px;
+ }
+
+.image {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+ .backwards {
+   background-image: url('../../resources/images/img-story-2.png');
+ }
+
+.camera {
+  background-image: url('../../resources/images/img-story-3.png');
+}
+
+.cat-ceo {
+  background-image: url('../../resources/images/img-story-1.png')
+}
