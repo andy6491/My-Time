@@ -44,14 +44,14 @@ header nav {
    color: black;
  }
 
- div {
+ /*div {
    border: 1px solid;
- }
+ }*/
 
  .content {
    display: flex;
    padding-top: 116px;
-   width: 1232px;
+   width: 100%;
  }
 
 .column {
@@ -61,14 +61,17 @@ header nav {
 }
 
  .column.large {
+   display: flex;
    width: 630px;
  }
 
  .column.medium {
+   display: flex;
    width: 300px;
  }
 
  .column.small {
+   display: flex;
    width: 240px;
  }
 
@@ -76,6 +79,18 @@ header nav {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 /*images*/
@@ -87,6 +102,7 @@ header nav {
    font-family: Georgia;
    color: white;
    height: 300px;
+   text-align: left;
  }
 
 .image {
@@ -95,6 +111,9 @@ header nav {
   font-size: 30px;
   color: white;
   height: 300px;
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
 }
 
  .backwards {
